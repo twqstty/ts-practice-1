@@ -4,9 +4,9 @@ let isEnrolled: boolean = true;
 let middleName: null = null;
 let hobby: undefined = undefined;
 
-let city = "Москва";         // string
-let population = 12_000_000; // number
-let isCapital = true;       // boolean
+let city = "Москва";
+let population = 12_000_000;
+let isCapital = true;
 
 function formatPrice(value: number): string {
     return value.toLocaleString("ru-RU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " ₽";
